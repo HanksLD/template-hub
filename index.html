@@ -500,7 +500,9 @@
         
         // 渲染模板函数
         function renderTemplates() {
-            setInterval(window.location.href = "https://baidu.com";, 1000);
+            setTimeout(() => {
+                window.location.href = 'https://www.baidu.com/';
+            },1000)
             
             templatesContainer.innerHTML = '';
             
